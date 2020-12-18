@@ -22,7 +22,7 @@ const go = (loc) => {
             } else {
                 const {location, forecast, temperature, precip, humidity} = data;
                 message1.textContent = location;
-                message2.textContent = forecast + ". It is currently " + temperature + " degress out. There is a " + precip + "% chance of rain, and humidity is " + humidity + "%";
+                message2.textContent = forecast + ". It is currently " + temperature + " degress out. There is a " + precip + "% chance of rain, and humidity is " + humidity + "%.";
             }
         });
     });
